@@ -1,0 +1,86 @@
+.footer-back {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.image-footer {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    filter: invert(1) sepia(0) hue-rotate(0deg) saturate(0%);
+}
+
+.image-footer-emoji {
+    font-size: 20px;
+    margin: 7px;
+    color: white;
+}
+
+.footer-h3 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.footer-link-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.footer-pagos {
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 0;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.contacto-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.contacto-p {
+    color: white;
+}
+
+.butom-footer {
+    background-color: black;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+
+.footer-back-div {
+    margin-right: 50px;
+}
