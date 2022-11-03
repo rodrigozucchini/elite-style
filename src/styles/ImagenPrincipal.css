@@ -1,0 +1,13 @@
+.imagenPrincipalBack {
+    display: flex;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+}
+
+.imagenPrincipal {
+    display: flex;
+    max-width: 1045px;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,83 @@
+.contacto {
+    display: flex;
+    width: 100%;
+
+    justify-content: center;
+  }
+  .form-container {
+    width: 500px;
+  }
+
+  .formEmail {
+    display: flex;
+    flex-direction: column;
+  }
+  .form a {
+    color: grey;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 52px;
+  }
+  .labelEmail {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  .inputEmail {
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    font-size: 14px;
+    padding: 6px;
+    margin-bottom: 12px;
+    border: 1px solid grey;
+  }
+  .inputMessage {
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    height: 60px;
+    font-size: 14px;
+    padding: 6px;
+    margin-bottom: 12px;
+    border: 1px solid grey;
+  }
+  .secondary-button {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid grey;
+    color: white;
+    background-color: black;
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    height: 50px;
+  }
+  .env-button {
+    margin-top: 14px;
+    margin-bottom: 30px;
+  }
+
+  .contacto-text {
+    text-align: center;
+    margin: 30px;
+    font-size: 30px;
+  }
+
+  .contacto-wp {
+    display: table; 
+    font-family: sans-serif; 
+    text-decoration: none; 
+    margin: 1em auto; 
+    color: #fff; 
+    font-size: 0.9em; 
+    padding: 1em 2em 1em 3.5em; 
+    border-radius: 2em; 
+    font-weight: bold; 
+    background: #25d366 url('https://tochat.be/click-to-chat-directory/css/whatsapp.svg') no-repeat 1.5em center; 
+    background-size: 1.6em;
+    cursor: pointer;
+  }

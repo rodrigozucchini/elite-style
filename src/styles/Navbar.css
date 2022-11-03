@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.navbarBack{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+}
+
+
+.navbarP{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-size: 18px;
+    background-color: black;
+    text-decoration: none;
+    font-family: 'Maven Pro', sans-serif;
+    cursor: pointer;
+    padding: 12px 35px 12px 35px;
+}
+
+.navbarP:hover{
+    border-top: 1px solid #f2e0dc;
+    border-bottom: 1px solid #f2e0dc;
+    color: grey;
+    transition: 0.5s;
+}
