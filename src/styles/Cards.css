@@ -1,4 +1,47 @@
 .cards-back {
-    display: flex;
+    display: grid;
     justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 450px);
+    margin-bottom: 100px;
+}
+
+@media all and (max-width: 1091px) {
+    .cards-back {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(2, 350px);
+        margin-bottom: 100px;
+    }
+}
+
+@media all and (max-width: 850px) {
+    .cards-back {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(2, 250px);
+        margin-bottom: 50px;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .cards-back {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(1, 500px);
+        margin-bottom: 50px;
+    }
+}
+
+@media all and (max-width: 530px) {
+    .cards-back {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(1, 90%);
+        margin-bottom: 50px;
+    }
 }

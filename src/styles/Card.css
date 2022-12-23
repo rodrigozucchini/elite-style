@@ -1,36 +1,154 @@
 .card-back {
     margin: 10px;
-    width: 330px;
-    height: 360px;
+    width: 420px;
+    height: 450px;
     box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
     border-radius: 5px;
-    cursor: pointer;
-}
-
-.card-p {
-    position: relative;
-    bottom: 50px;
-    left: 20px;
-    color: gray;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 16px;
-    font-family: 'Akaya Telivigala', cursive;
 }
 
 .card-img {
     width: 100%;
     height: 100%;
-    filter: brightness(70%);
     transition: 1s;
     object-fit: cover;
     border-radius: 5px;
 }
 
-.card-img:hover {
-    width: 100%;
-    height: 100%;
-    filter: none;
-    object-fit: cover;
-    border-radius: 5px;
+.card-buttom {
+    display: flex;
+    position: relative;
+    top: -11%;
+    left: 30%;
+    width: 45%;
+    height: 40px;
+    background: rgba(242,224,220,0.8) ;
+    color: grey;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+    font-weight: bold;
+}
+
+@media all and (max-width: 1091px) {
+    .card-back {
+        margin: 10px;
+        width: 320px;
+        height: 350px;
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+        border-radius: 5px;
+    }
+}
+
+@media all and (max-width: 1091px) {
+    .card-back {
+        margin: 10px;
+        width: 320px;
+        height: 350px;
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+        border-radius: 5px;
+    }
+    .card-buttom {
+        display: flex;
+        position: relative;
+        top: -11%;
+        left: 30%;
+        width: 40%;
+        height: 30px;
+        background: rgba(242,224,220,0.8) ;
+        color: grey;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 15px;
+        font-size: 18px;
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+        font-weight: bold;
+    }
+}
+
+
+@media all and (max-width: 850px) {
+    .card-back {
+        margin: 10px;
+        width: 240px;
+        height: 270px;
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+        border-radius: 5px;
+    }
+    .card-buttom {
+        display: flex;
+        position: relative;
+        top: -15%;
+        left: 30%;
+        width: 40%;
+        height: 30px;
+        background: rgba(242,224,220,0.8) ;
+        color: grey;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 15px;
+        font-size: 18px;
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+        font-weight: bold;
+    }
+}
+
+@media all and (max-width: 750px) {
+    .card-back {
+        margin: 10px;
+        margin-bottom: 20px;
+        width: 470px;
+        height: 400px;
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+        border-radius: 5px;
+    }
+    .card-buttom {
+        display: flex;
+        position: relative;
+        top: -15%;
+        left: 30%;
+        width: 45%;
+        height: 40px;
+        background: rgba(242,224,220,0.8) ;
+        color: grey;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 15px;
+        font-size: 18px;
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+        font-weight: bold;
+    }
+}
+
+@media all and (max-width: 530px) {
+    .card-back {
+        margin: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+        height: 300px;
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+        border-radius: 5px;
+    }
+    .card-buttom {
+        display: flex;
+        position: relative;
+        top: -17%;
+        left: 30%;
+        width: 45%;
+        height: 40px;
+        background: rgba(242,224,220,0.8) ;
+        color: grey;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 15px;
+        font-size: 18px;
+        box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+        font-weight: bold;
+    }
 }

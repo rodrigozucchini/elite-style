@@ -1,0 +1,123 @@
+@media all and (min-width: 1091px) {
+  .CreateTodoButton {
+    display: none;
+  }
+
+  .CreateTodoButtonX {
+    display: none;
+  }
+
+}
+
+@media all and (max-width: 1091px) {
+  .CreateTodoButton {
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    position: fixed;
+    top: 54px;
+    left: 24px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+  }
+
+  .CreateTodoButtonX {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 70px;
+    position: fixed;
+    top: 54px;
+    left: 24px;
+    font-weight: bold;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 76px;
+    width: 76px;
+    margin: 0;
+    padding: 0;
+    z-index: 4;
+  }
+
+  .menuPhone {
+    background: rgba(32,35,41,.8);
+    position: fixed;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    z-index: 3;
+    flex-direction: column;
+  }
+
+  .menuPhone-link {
+    color: #f2e0dc;
+    font-size: 50px;
+    margin: 10px;
+    text-decoration: none;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .menuPhone-link {
+    color: #f2e0dc;
+    font-size: 30px;
+    margin: 10px;
+    text-decoration: none;
+  }
+
+  .CreateTodoButton {
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    position: fixed;
+    top: 54px;
+    left: 24px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+  }
+
+  .CreateTodoButtonX {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 60px;
+    position: fixed;
+    top: 54px;
+    left: 24px;
+    font-weight: bold;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 66px;
+    width: 66px;
+    margin: 0;
+    padding: 0;
+    z-index: 4;
+  }
+}

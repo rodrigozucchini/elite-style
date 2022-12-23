@@ -8,7 +8,7 @@ export const Footer = () => {
   return (
     <div className='footer-back'>
         <div className='footer'>
-        <div className='footer-back-div'>
+        <div className='footer-back-div1'>
             <h3 className='footer-h3'>Navegacion</h3>
             <div className='footer-link-div'>
             <Link to="/" className='footer-link'>INICIO</Link>
@@ -23,24 +23,24 @@ export const Footer = () => {
             <p className='footer-pagos'>Aceptamos todos los medios de pago</p>
         </div>
         <div className='footer-back-div'>
-            <h3 className='footer-h3'>Contacto</h3>
+            <h3 className='footer-contacto'>Contacto</h3>
             <div className='contacto-div'>
                 <p className='image-footer-emoji'>📞</p>
-                <p className='contacto-p'>1140636824</p>
+                <p className='contacto-p'>+54 9 11 2683-6800</p>
             </div>
             <div className='contacto-div'>
                 <p className='image-footer-emoji'>@</p>
-                <p className='contacto-p'>laclottashowroom@gmail.com</p>
+                <p className='contacto-p'>elitestylechaquetas@gmail.com</p>
             </div>
         </div>
         <div className='footer-back-div'>
             <h3 className='footer-h3'>Redes Sociales</h3>
             <div>
                 <button className='butom-footer'>
-                    <img src={Instagram} alt="Instagram" className='image-footer' />
+                    <a href="https://www.instagram.com/__elitestyle__/" target="_blank"><img src={Instagram} className='image-footer' /></a>
                 </button>
                 <button className='butom-footer'>
-                    <img src={Facebook} alt="Facebook" className='image-footer' />
+                    <a href="https://www.instagram.com/__elitestyle__/" target="_blank"><img src={Facebook} className='image-footer' /></a>
                 </button>
             </div>
         </div>
