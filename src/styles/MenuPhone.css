@@ -121,3 +121,52 @@
     z-index: 4;
   }
 }
+
+@media all and (max-width: 400px) {
+  .menuPhone-link {
+    color: #f2e0dc;
+    font-size: 20px;
+    margin: 5px;
+    text-decoration: none;
+  }
+
+  .CreateTodoButton {
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    position: fixed;
+    top: 54px;
+    left: 24px;
+    font-weight: bold;
+    color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+  }
+
+  .CreateTodoButtonX {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 60px;
+    position: fixed;
+    top: 54px;
+    left: 24px;
+    font-weight: bold;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 66px;
+    width: 66px;
+    margin: 0;
+    padding: 0;
+    z-index: 4;
+  }
+}

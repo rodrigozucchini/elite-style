@@ -213,6 +213,36 @@
       justify-content: center;
       align-items: center;
     }
+    .CreateTodoButtonD {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      font-size: 30px;
+      font-weight: bold;
+      color: black;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+    .createTodoButtonH {
+      background-color: #f2e0dc;
+      border: none;
+      cursor: pointer;
+      font-size: 20px;
+      position: fixed;
+      top: 54px;
+      left: 24px;
+      color: #FAFAFA;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40px;
+      width: 40px;
+      margin: 0;
+      padding: 0;
+      border: 2px solid black;
+    }
   }
 
   @media (max-width: 500px){
@@ -252,6 +282,43 @@
       border: none;
       cursor: pointer;
       font-size: 30px;
+      font-weight: bold;
+      color: black;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 380px){
+    .details .big-img{
+      max-width: 160px;
+      min-width: 50px;
+      overflow: hidden;
+      margin: 20px;
+      box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5);
+      border-radius: 5px;
+    }
+
+    .todoButtonL {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      font-size: 25px;
+      font-weight: bold;
+      color: black;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .todoButtonR {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      font-size: 25px;
       font-weight: bold;
       color: black;
       display: flex;

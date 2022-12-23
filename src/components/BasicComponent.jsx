@@ -26,7 +26,7 @@ export const BasicComponent = () => {
             <img src={Wp} className="image-basic"/>
             <div className="div-basic">
                 <h3 className="h3-basic">CONTACTANOS</h3>
-                <p className="p-basic">laclottashowroom@gmail.com</p>
+                <p className="p-basic">elitestylechaquetas@gmail.com</p>
             </div>
         </div>
     </div>

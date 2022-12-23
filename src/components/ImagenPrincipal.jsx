@@ -8,7 +8,7 @@ export const ImagenPrincipal = () => {
     <div className='cards-imagenPrincipal'>
     <div className="imagenPrincipalBack">
         <img className="imagenPrincipal" src={ImagePrincipal} alt="Imagen Principal" />
-        <a className="buttonCompra" href="https://bit.ly/3Uqmud1" target="_blank">Show Now</a>
+        <a className="buttonCompra" href="https://bit.ly/3Uqmud1" target="_blank">Shop Now</a>
     </div>
     </div>
   )
