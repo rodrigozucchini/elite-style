@@ -42,7 +42,7 @@ export const Footer = () => {
                 <button className='butom-footer'>
                     <a href="https://www.facebook.com/michi.ind.18" target="_blank"><img src={Facebook} className='image-footer' /></a>
                 </button>
-            </div>
+            </div> 
         </div>
         </div>
     </div>
