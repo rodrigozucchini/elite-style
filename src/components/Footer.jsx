@@ -40,7 +40,7 @@ export const Footer = () => {
                     <a href="https://www.instagram.com/__elitestyle__/" target="_blank"><img src={Instagram} className='image-footer' /></a>
                 </button>
                 <button className='butom-footer'>
-                    <a href="https://www.instagram.com/__elitestyle__/" target="_blank"><img src={Facebook} className='image-footer' /></a>
+                    <a href="https://www.facebook.com/michi.ind.18" target="_blank"><img src={Facebook} className='image-footer' /></a>
                 </button>
             </div>
         </div>
