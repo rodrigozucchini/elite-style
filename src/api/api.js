@@ -58,6 +58,16 @@ import Chaqueta24 from './photoProduct/chaqueta2-4.jpeg';
 import VestidoVictoria from './photoProduct/vestido-victoria.jpeg';
 import VestidoVictoria1 from './photoProduct/vestido-victoria-1.jpeg';
 
+import ChaquetaClasicaEntallada from './photoProduct/caqueta-clasica-entallada.jpeg';
+
+import ChaquetaTiger0 from './photoProduct/chaqueta-tiger.jpeg';
+import ChaquetaTiger1 from './photoProduct/chaqueta-tiger1.jpeg';
+import ChaquetaTiger2 from './photoProduct/chaqueta-tiger2.jpeg';
+
+import ChaquetaTigerNegra0 from './photoProduct/chaqueta-tiger-negra.jpeg';
+import ChaquetaTigerNegra1 from './photoProduct/chaqueta-tiger-negra1.jpeg';
+
+import BlSaNegro from './photoProduct/bl-sa-negro.jpeg';
 
 const getProduct = [
     {
@@ -152,6 +162,30 @@ const getProduct = [
         id: uuid(),
         foto0: VestidoVictoria,
         foto1: VestidoVictoria1
+    },
+    {
+        titulo: "Chaqueta clasica entallada",
+        id: uuid(),
+        foto0: ChaquetaClasicaEntallada
+    },
+    {
+        titulo: "Chaqueta Tiger marrón",
+        id: uuid(),
+        foto0: ChaquetaTiger0,
+        foto1: ChaquetaTiger1,
+        foto2: ChaquetaTiger2,
+    },
+    {
+        titulo: "Chaqueta Tiger negra",
+        id: uuid(),
+        foto0: ChaquetaTigerNegra0,
+        foto1: ChaquetaTigerNegra1,
+    }
+    ,
+    {
+        titulo: "Blazer Sastrero negro",
+        id: uuid(),
+        foto0: BlSaNegro
     }
 ]
 
