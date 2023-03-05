@@ -10,9 +10,6 @@ import VestidoTurquesa from './photoProduct/vestido-turquesa.jpeg';
 import Chaqueta3 from './photoProduct/chaqueta3.jpeg';
 import Chaqueta4 from './photoProduct/chaqueta4.jpeg';
 import Chaqueta5 from './photoProduct/chaqueta5.jpeg';
-import VestidoAzul from './photoProduct/vestido-azul.jpeg';
-import Vestidoblanco2 from './photoProduct/vestido-blanco2.jpeg';
-import Vestidoelastizado from './photoProduct/vestidoelastizado.jpeg';
 
 import ChaquetaVale1 from './photoProduct/chaquetavale1.jpeg';
 import ChaquetaVale2 from './photoProduct/chaquetavale2.jpeg';
@@ -52,10 +49,6 @@ import Chaqueta52 from './photoProduct/chaqueta5-2.jpeg';
 import Chaqueta53 from './photoProduct/chaqueta5-3.jpeg';
 import Chaqueta54 from './photoProduct/chaqueta5-4.jpeg';
 
-import Vvestidoblanco221 from './photoProduct/vvestido-blanco2-21.jpeg';
-import Vvestidoblanco222 from './photoProduct/vvestido-blanco-2-22.jpeg';
-
-import Vestidoelastizado1 from './photoProduct/vestidoelastizado1.jpeg';
 
 import Chaqueta21 from './photoProduct/chaqueta2-1.jpeg';
 import Chaqueta22 from './photoProduct/chaqueta2-2.jpeg';
@@ -65,17 +58,6 @@ import Chaqueta24 from './photoProduct/chaqueta2-4.jpeg';
 import VestidoVictoria from './photoProduct/vestido-victoria.jpeg';
 import VestidoVictoria1 from './photoProduct/vestido-victoria-1.jpeg';
 
-import VestidoEmilia from './photoProduct/vestido-emilia.jpeg';
-
-import VestidoMono from './photoProduct/vestido-mono.jpeg';
-import VestidoMono1 from './photoProduct/vestido-mono1.jpeg';
-
-import VestidoUniverso from './photoProduct/vestido-universo.jpeg';
-import VestidoUniverso1 from './photoProduct/vestido-universo1.jpeg';
-
-import Vestidooo from './photoProduct/vestidooo.jpeg';
-import Vestidooo1 from './photoProduct/vestidooo1.jpeg';
-import Vestidooo2 from './photoProduct/vestidooo2.jpeg';
 
 const getProduct = [
     {
@@ -109,7 +91,7 @@ const getProduct = [
         foto1: Chaqueta41
     },
     {
-        titulo: "Chaqueta barce. Usala con o sin cinto",
+        titulo: "Chaqueta desmontable ideal para todas las estaciones",
         id: uuid(),
         foto0: Chaqueta5,
         foto1: Chaqueta51,
@@ -166,54 +148,10 @@ const getProduct = [
         foto1: VestidoTurquesa1
     },
     {
-        titulo: "Vestido Francia",
-        id: uuid(),
-        foto0: VestidoAzul
-    },
-    {
-        titulo: "Vestido Olimpia",
-        id: uuid(),
-        foto0: Vestidoblanco2,
-        foto1: Vvestidoblanco221,
-        foto2: Vvestidoblanco222
-
-    },
-    {
-        titulo: "Vestido Tejido Elastizado",
-        id: uuid(),
-        foto0: Vestidoelastizado,
-        foto1: Vestidoelastizado1
-    },
-    {
         titulo: "Vestido Victoria",
         id: uuid(),
         foto0: VestidoVictoria,
         foto1: VestidoVictoria1
-    },
-    {
-        titulo: "Vestido Emilia",
-        id: uuid(),
-        foto0: VestidoEmilia
-    },
-    {
-        titulo: "Vestido Mono",
-        id: uuid(),
-        foto0: VestidoMono,
-        foto1: VestidoMono1
-    },
-    {
-        titulo: "Vestido Universo Flores",
-        id: uuid(),
-        foto0: VestidoUniverso,
-        foto1: VestidoUniverso1
-    },
-    {
-        titulo: "Vestido",
-        id: uuid(),
-        foto0: Vestidooo,
-        foto1: Vestidooo1,
-        foto2: Vestidooo2
-
     }
 ]
 
