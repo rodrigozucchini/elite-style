@@ -79,9 +79,6 @@ import PilotoImp1 from './photoProduct/piloto-imp1.jpeg';
 import PilotoImp2 from './photoProduct/piloto-imp2.jpeg';
 import PilotoImp3 from './photoProduct/piloto-imp3.jpeg';
 import PilotoImp4 from './photoProduct/piloto-imp4.jpeg';
-import PilotoImp5 from './photoProduct/piloto-imp5.jpeg';
-import PilotoImp6 from './photoProduct/piloto-imp6.jpeg';
-import PilotoImp7 from './photoProduct/piloto-imp7.jpeg';
 
 const getProduct = [
     {
@@ -218,10 +215,7 @@ const getProduct = [
         foto1: PilotoImp1,
         foto2: PilotoImp2,
         foto3: PilotoImp3,
-        foto4: PilotoImp4,
-        foto5: PilotoImp5,
-        foto6: PilotoImp6,
-        foto7: PilotoImp7,
+        foto4: PilotoImp4
     }
 ]
 

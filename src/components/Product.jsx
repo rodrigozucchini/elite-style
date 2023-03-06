@@ -73,7 +73,7 @@ let retornar = () => {
                 />
               </div>
 
-              {contador > 3 || (imgpost.foto4 === undefined && contador === 3) || (imgpost.foto3 === undefined && contador === 2) || (imgpost.foto2 === undefined && contador === 1) ? null :<button className="todoButtonR" onClick={mostrarImgAdelante}>⇨</button>}
+              {contador > 3 || (imgpost.foto4 === undefined && contador === 3) || (imgpost.foto3 === undefined && contador === 2)  || (imgpost.foto1 === undefined && contador === 0) ? null :<button className="todoButtonR" onClick={mostrarImgAdelante}>⇨</button>}
 
               <div className="box">
                 <p className="titulo-p">{imgpost.titulo}</p>
