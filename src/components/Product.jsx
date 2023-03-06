@@ -16,7 +16,7 @@ export const Product = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000)
+    }, 3000)
   }, [])
 
   const { id } = useParams()
